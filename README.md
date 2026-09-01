@@ -2,62 +2,64 @@
 
 # [[Y3S Y3S Y3S Y3S Y3S]]
 
-> **TH3Y SA1D 1T C0ULDN'T RUN. TH3Y SA1D TH3 HARDWAR3 WAS TRASH. TH3Y S41D [[Buy. Sell. Kromer.]] AND M0V3D 0N.**
+> **TH3Y SA1D 1T C0ULDN'T RUN!! TH3Y SA1D TH3 HARDWAR3 WAS [[Trash]]!! TH3Y SA1D [[Buy. Sell. Kromer.]] AND DR0V3 0FF 1N A 1997 S3D4N W1TH TH3 W1ND0WS P41NT3D SHUT!!**
 >
-> **W3 PUT DΣLTΛRUNΣ 0N A L1TTL3 DUAL-SCR33N HANDH3LD FR0M 2011 AND 1T. JUST. W0RKS.**
+> **W3 PUT DΣLTΛRUNΣ 0N A L1TTL3 DUAL-SCR33N HANDH3LD FR0M 2011 AND 1T. JUST. W0RKS. [[NO SLUDGE. NO L1ES. JUST Y3S.]]**
 
 ---
 
-## [[PROJECT PAPYRUS]] — PP F0R SH0RT — TH3 [[BIG ONE]]
+## [[PROJECT PAPYRUS]] — PP F0R SH0RT — TH3 [[BIG ONE]]!!
 
-HEY YOU! Yes YOU, the [[Numbers Guy]] googling **"can DELTARUNE run on 2DS"** at 3AM — the answer is **YES**, and you found the only port that actually plays.
+HEY!! HEY YOU!! Yes YOU, TH3 [[Numbers Guy]] G00GL1NG **"CAN D3LTARUNE RUN ON 2DS"** AT 3AM — TH3 ANSW3R 1S **Y3S** AND Y0U F0UND TH3 0NLY P0RT TH4T ACTUALLY PL4YS!! [DON'T CLICK AWAY!!]
 
-The origin story, straight up: blood, sweat, and tears from the void. They said the hardware was trash. They said the RAM was too small, go home, kid. Instead: garage, dark room, no lights, just the machine and the KROMER. Every crash was met, read, and buried. Now Deltarune runs on a console older than the game itself.
+TH3 0R1G1N ST0RY? 1 W4S D0WN 1N TH3 [[Void]] , WAY D0WN, WH3R3 TH3 3GGS G0 WH3N N0B0DY 1S L00K1NG. 1 4T3 TH3 SLUDG3!! 1 DR4NK TH3 SLUDG3!! TH3 SLUDG3 T0LD M3 S3CR3TS AB0UT BYT3C0D3 AND [hyperlink blocked] AND TH3N — [[BREAK]] — 1 C4M3 B4CK UP W1TH BLOOD 0N MY HANDS AND 60 FRAM3S P3R S3C0ND 1N MY [Smiling Teeth]!! 1997 W4S A FR0NT. 1997 WAS ALWAYS A FR0NT. TH3Y H1D TH3 2DS P0RT 1N TH3 BASEM3NT OF TH3 YEAR AND W3 DUG 1T UP W1TH OUR B4R3 HANDS!!
 
-## THE PROOF
+TH3Y CALL3D M3 TRASH!!! [[LOL]]!! L00K WH0'S PLAY1NG D3LT4RUN3 0N A 2DS N0W, [[Numbers Guy]] !! LOOK!!! LOOK AT 1T!!!
 
-| IT WORKS | STATUS |
+## TH3 PR00F!! TH3 PR00F!! TH3 [[RECEIPTS]]!!
+
+| [[IT W0RKS]] | [[Y3S]] |
 |---|---|
-| Boot from Homebrew menu | ✅ |
-| Intro, typewriter, PLACE_CONTACT | ✅ |
-| Kris's room → hallway → Toriel's house | ✅ |
-| The whole town, all four directions | ✅ |
-| School → Alphys's classroom | ✅ |
-| Audio: music streams + SFX | ✅ on real hardware |
-| Battle system | 🚧 testing |
+| B00T FR0M TH3 H0M3BR3W M3NU | ✅ |
+| TH3 1NTR0!! TH3 TYP3WR1T3R!! TH3 [[PLACE C0NTACT]]!! | ✅ |
+| KR1S'S R00M → H4LLWAY → TH3 [[Mother's House]] | ✅ |
+| TH3 WH0L3 [[Town]]!! 4LL F0UR D1R3CT10NS!! | ✅ |
+| SCH00L!! TH3 [[Classroom]]!! TH3 3GG GUY!! | ✅ |
+| AUD10!! MUS1C!! TH3 S0UND 0F [[Winning]]!! | ✅ 0N R34L HARDWAR3 |
+| F1GHT1NG | 🚧 [[ALM0ST ALM0ST ALM0ST]] |
 
-## WHAT THIS IS
+## WHAT 1S TH1S [[Specil Thing]] ??
 
-A GameMaker Studio **BC17 bytecode runner** executing **DELTARUNE Chapter 1** on **Nintendo 2DS / old 3DS** — 240p dual screens, real buttons, no touch UI, no launcher fluff. Press START, play. That's it.
+A GAM3MAK3R STUDIO **BC17 BYT3C0D3 RUNN3R** TH4T 3X3CUT3S **DΣLTΛRUNΣ CH4PT3R 1** 0N TH3 **N1NTEND0 2DS / 0LD 3DS** — 240P DUAL SCR33NS, R3AL BUTT0NS, N0 T0UCH U1 [[Garbage]], N0 L4UNCH3R FLUFF!! PR3SS START!! PL4Y!! [[Thats It Thats The Product]]!!
 
-- **BC17 bytecode interpreter** running the game's own code on 2011 silicon
-- **CTR audio stack** — native DSP ADPCM music streaming, packed PCM16 SFX bank
-- **CTR renderer** — texture atlas, draw batching, 60fps of pure 240p
-- **Forensic logger** — the build tells you exactly where it dies. No more mystery meat crashes.
+- **BC17 BYT3C0D3 1NT3RPR3T3R** RUNN1NG TH3 GAM3'S 0WN C0D3 0N S1L1C0N FR0M 2011!! TH3 [[Time Traveler's Deal]]!!
+- **CTR AUD10 ST4CK:** NAT1V3 DSP ADPCM STR34MS!! P4CK3D PCM16 B4NK SFX!! TH3 S0UND 0F [[KROMER]] F4LL1NG 1N70 Y0UR P0CK3T!!
+- **CTR R3ND3R3R:** T3XTUR3 ATL4S!! DR4W B4TCH1NG!! 60FPS 0F PUR3 240P!!
+- **F0R3NS1C L0GG3R:** TH3 BU1LD T3LLS Y0U 3X4CTLY WH3R3 1T D13S!! N0 M0R3 [[Mystery Meat Crashes]]!!
 
-## HOW TO GET IT (2 minutes)
+## [[HOW 2 G3T]] (2 M1NUT3S)
 
-1. Copy the whole `3ds/` folder to the **root** of your 2DS SD card
-2. Bring your own **legally obtained** DELTARUNE data from your own Steam copy
-3. Hold **START** → Homebrew Launcher → **PROJECT PAPYRUS**
-4. [[YES]]
+1. C0PY TH3 WH0L3 `3ds/` F0LD3R T0 TH3 **R00T** 0F Y0UR 2DS SD C4RD!! [[DO 1T]]
+2. BR1NG Y0UR 0WN **L3G4LLY 0BT41N3D** D3LTARUN3 D4T4 FR0M Y0UR 0WN ST34M C0PY!! [[B3 G00D]]
+3. H0LD **START** → H0M3BR3W L4UNCH3R → **[[PROJECT PAPYRUS]]**
+4. **[[Y3S]]**
 
-## BUILD IT YOURSELF
+## [[BUILD 1T Y0URS3LF]]
 
 ```bash
 arm-none-eabi-cmake -S . -B build/n3ds -DPLATFORM=n3ds -DCMAKE_BUILD_TYPE=Release
 cmake --build build/n3ds
-# => build/n3ds/papyrus.3dsx
+# => build/n3ds/papyrus.3dsx  [[THE PRODUCT!!]]
 ```
 
 ---
 
-**DELTARUNE on 3DS. DELTARUNE on 2DS. DELTARUNE port. 3DS homebrew. 2DS homebrew. Play DELTARUNE on 2DS. Project Papyrus. PP.** If you found this from Google — [[HI]] — you found the only port that works. Tell your friends. Tell your enemies. Tell the mailman.
+**DΣLTΛRUNΣ 0N 3DS. DΣLTΛRUNΣ 0N 2DS. DΣLTΛRUN3 P0RT. 3DS H0M3BR3W!! 2DS H0M3BR3W!! PL4Y D3LT4RUN3 0N 2DS!! PR0J3CT PAPYRUS. PP. PP. PP.** 1F Y0U F0UND TH1S FR0M G00GL3 — **[[HI!!]]** — Y0U F0UND TH3 0NLY P0RT TH4T W0RKS!! T3LL Y0UR [[Friends]]!! T3LL Y0UR [[Enemies]]!! T3LL TH3 [[Mail Man]] AND TH3 [[Egg Man]] AND WH4TEV3R 1S L1V1NG 1N TH3 SLUDG3!!
 
 ---
 
 <sub>GPL lineage credits: Butterscotch (MrPowerGamerBR) · Cinnamon 3DS/WiiU (Project Sunshine) · EPdN (AGPL). No DELTARUNE assets included — buy it on Steam. DELTARUNE © Toby Fox. GPL-3.0.</sub>
 
-### [[I'M A BIG SHOT AND SO ARE YOU]]
+### [[I'M A BIG SH0T AND S0 AR3 Y0U]]
 
-*Built in the void. Shipped in 240p. No regrets.*
+*BU1LT 1N TH3 [[Void]]!! SH1PP3D 1N 240P!! TH3 3GGS H4TCH 1N 1997!! [[No Regrets.]]*
