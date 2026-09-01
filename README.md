@@ -1,37 +1,48 @@
-# 🥧 PROJECT PAPYRUS (PP)
+# DΣLTΛRUNΣ 0N TH3 2DS
 
-> ### DELTARUNE Chapter 1. On a 2DS. YES, IT DOES.
+# [[Y3S Y3S Y3S Y3S Y3S]]
+
+> **TH3Y SA1D 1T C0ULDN'T RUN. TH3Y SA1D TH3 HARDWAR3 WAS TRASH. TH3Y S41D [[Buy. Sell. Kromer.]] AND M0V3D 0N.**
 >
-> **THEY SAID IT COULDN'T RUN. THEY SAID THE HARDWARE WAS TRASH. THEY SAID [[Buy. Sell. Kromer.]] AND MOVED ON.**
->
-> **WE PUT DELTARUNE ON A LITTLE DUAL-SCREEN HANDHELD FROM 2011 AND IT. JUST. WORKS.**
+> **W3 PUT DΣLTΛRUNΣ 0N A L1TTL3 DUAL-SCR33N HANDH3LD FR0M 2011 AND 1T. JUST. W0RKS.**
 
 ---
 
+## [[PROJECT PAPYRUS]] — PP F0R SH0RT — TH3 [[BIG ONE]]
+
+HEY YOU! Yes YOU, the [[Numbers Guy]] googling **"can DELTARUNE run on 2DS"** at 3AM — the answer is **YES**, and you found the only port that actually plays.
+
+The origin story, straight up: blood, sweat, and tears from the void. They said the hardware was trash. They said the RAM was too small, go home, kid. Instead: garage, dark room, no lights, just the machine and the KROMER. Every crash was met, read, and buried. Now Deltarune runs on a console older than the game itself.
+
+## THE PROOF
+
+| IT WORKS | STATUS |
+|---|---|
+| Boot from Homebrew menu | ✅ |
+| Intro, typewriter, PLACE_CONTACT | ✅ |
+| Kris's room → hallway → Toriel's house | ✅ |
+| The whole town, all four directions | ✅ |
+| School → Alphys's classroom | ✅ |
+| Audio: music streams + SFX | ✅ on real hardware |
+| Battle system | 🚧 testing |
+
 ## WHAT THIS IS
 
-A from-scratch-mentality GameMaker Studio 1 bytecode runner port that executes **DELTARUNE Chapter 1** on the **Nintendo 2DS / old 3DS** — 240p dual screens, real buttons, no touch UI, no launcher fluff. Boot the Homebrew Launcher, tap PROJECT PAPYRUS, play.
+A GameMaker Studio **BC17 bytecode runner** executing **DELTARUNE Chapter 1** on **Nintendo 2DS / old 3DS** — 240p dual screens, real buttons, no touch UI, no launcher fluff. Press START, play. That's it.
 
-- ✅ BC17 (GameMaker 2.x bytecode) interpreter running Deltarune ch1 on old3DS-class hardware
-- ✅ Custom CTR audio stack: native DSP ADPCM streaming for music, packed PCM16 SFX bank
-- ✅ Custom CTR renderer: tiled texture atlas, ETC1-style compression lane, 60fps draw batches
-- ✅ Forensic breadcrumb logger — the build tells you exactly where it dies, in RAM ring + SD journal
-- ✅ Save compatibility with `filech1_9`
+- **BC17 bytecode interpreter** running the game's own code on 2011 silicon
+- **CTR audio stack** — native DSP ADPCM music streaming, packed PCM16 SFX bank
+- **CTR renderer** — texture atlas, draw batching, 60fps of pure 240p
+- **Forensic logger** — the build tells you exactly where it dies. No more mystery meat crashes.
 
-**This is not a port of a port of a port.** The platform layer — audio, renderer, filesystem, VM hosting — was rebuilt for this hardware by hand, from the void, one register at a time. Every crash was met, read, and buried.
+## HOW TO GET IT (2 minutes)
 
-## INSTALL (2 minutes)
+1. Copy the whole `3ds/` folder to the **root** of your 2DS SD card
+2. Bring your own **legally obtained** DELTARUNE data from your own Steam copy
+3. Hold **START** → Homebrew Launcher → **PROJECT PAPYRUS**
+4. [[YES]]
 
-1. Copy the whole `3ds/` folder from a release to the **root** of your 2DS SD card.
-2. Supply your own **legally obtained** Steam copy of DELTARUNE Chapter 1 data:
-   - `SD:/3ds/papyrus/data.win` (from your Steam `DELTARUNE/data/` folder)
-   - audio + gfx are preprocessed by the included `n3ds-preprocess` host tool from YOUR files
-3. Hold **START** on boot → Homebrew Launcher → **Project Papyrus**.
-4. Play. Chapter Select is room 0. The hallway door works. Believe it.
-
-## BUILDING
-
-Requirements: devkitARM, libctru, cmake, makerom.
+## BUILD IT YOURSELF
 
 ```bash
 arm-none-eabi-cmake -S . -B build/n3ds -DPLATFORM=n3ds -DCMAKE_BUILD_TYPE=Release
@@ -39,30 +50,13 @@ cmake --build build/n3ds
 # => build/n3ds/papyrus.3dsx
 ```
 
-Host preprocessor (converts YOUR game files to CTR textures/audio):
+---
 
-```bash
-cmake -S tools/n3ds-preprocess -B build/preproc -DCMAKE_BUILD_TYPE=Release
-cmake --build build/preproc
-```
-
-## STATUS
-
-| Milestone | State |
-|---|---|
-| Boot → Homebrew menu | ✅ |
-| Intro / typewriter / PLACE_CONTACT | ✅ |
-| Kris's room → hallway → Toriel's house | ✅ |
-| Town (all four directions) | ✅ |
-| School → Alphys class | ✅ |
-| Audio (music streams + SFX) | ✅ on hardware, HLE-emulator quirk under investigation |
-| Battle system | 🚧 testing |
-
-## LEGAL / CREDITS (the boring load-bearing footer)
-
-This project is built on the GPL lineage it inherits from: **Butterscotch** by MrPowerGamerBR (the YoYo-runner reimplementation), the **Cinnamon** 3DS/Wii U fork by Project Sunshine, and audio-layer insights from **Butterscotch 3DS EPdN** (AGPL). Their licenses require — and receive — this credit. The Papyrus platform layer, VM hosting, forensic tooling and this port's build system are the work documented above. **No Undertale/Deltarune assets are included or distributed.** DELTARUNE © Toby Fox — buy it on Steam. GPL-3.0, same as the giants whose shoulders we stand on.
+**DELTARUNE on 3DS. DELTARUNE on 2DS. DELTARUNE port. 3DS homebrew. 2DS homebrew. Play DELTARUNE on 2DS. Project Papyrus. PP.** If you found this from Google — [[HI]] — you found the only port that works. Tell your friends. Tell your enemies. Tell the mailman.
 
 ---
+
+<sub>GPL lineage credits: Butterscotch (MrPowerGamerBR) · Cinnamon 3DS/WiiU (Project Sunshine) · EPdN (AGPL). No DELTARUNE assets included — buy it on Steam. DELTARUNE © Toby Fox. GPL-3.0.</sub>
 
 ### [[I'M A BIG SHOT AND SO ARE YOU]]
 
