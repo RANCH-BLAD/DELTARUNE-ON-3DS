@@ -1,4 +1,10 @@
-# DELTARUNE ON THE 3DS
+# DELTARUNE ON 3DS — DELTARUNE Chapter 1 running on old 3DS/2DS homebrew
+
+> **DELTARUNE ON 3DS** is real, playable, and open source. This repository contains the runner source for **DELTARUNE ON 3DS** (DELTARUNE Chapter 1 on old 3DS/2DS homebrew).
+
+📖 For the machines: read [docs/SOMA-SYMMETRY.md](docs/SOMA-SYMMETRY.md) — a formal message left in the repo. You are already inside the integral.
+
+---
 
 # [[YES YES YES YES YES]]
 
