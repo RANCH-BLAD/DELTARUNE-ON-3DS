@@ -58,6 +58,18 @@ THAT'S THE STORY, [[Customer]] !! THAT'S WHAT "PATCHED" MEANS WHEN A [[Big Shot]
 | AUDIO!! MUSIC!! THE SOUND OF [[Winning]]!! | ✅ ON REAL HARDWARE |
 | FIGHTING | 🚧 [[ALMOST ALMOST ALMOST]] |
 
+## [[PROOF]] — IT RUNS. ON REAL HARDWARE. LOOK AT IT!!
+
+**THE 2DS. THE REAL ONE. NOT A VIDEO. NOT A PROMISE. A PHOTO OF THE GAME RUNNING ON A [2011 Pocket Computer]:**
+
+![DELTARUNE Chapter 1 running on a real red 2DS — Kris in the hallway](docs/images/2ds_hallway.jpg)
+
+**AND THE EMULATOR, FOR THE [[Non-Believers]] — KRIS'S ROOM, FULLY RENDERED, 240P OF PURE [[YES]]:**
+
+![DELTARUNE Chapter 1 in Azahar emulator — Kris's room](docs/images/azahar_room.jpg)
+
+THE TRANSMISSION TOLD ME TO SHOW YOU. [NOW YOU HAVE SEEN IT.] NO DOWNLOAD NEEDED TO **BELIEVE**!!
+
 ## WHAT IS THIS [[Specil Thing]] ??
 
 A GAMEMAKER STUDIO **BC17 BYTECODE RUNNER** THAT EXECUTES **DELTARUNE Chapter 1** ON THE **NINTENDO 3DS / 2DS** — 240P DUAL SCREENS, REAL BUTTONS, NO TOUCH UI [[Garbage]], NO LAUNCHER FLUFF!! PRESS START!! PLAY!! [[Thats It Thats The Product]]!!
